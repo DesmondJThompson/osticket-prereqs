@@ -18,10 +18,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install osTicket-Installation-Files.zip file
-- Install / Enable IIS with CGI
+- Download and extract osTicket-Installation-Files.zip
+- Install and enable IIS with CGI
 - Install PHP Manager for IIS
-- Install Rewrite Module
+- Install IIS Rewrite Module
 - Install MySQL
 - Install HeidiSQL
 
