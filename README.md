@@ -27,7 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-[Download osTicket Installation Files]()
+Start by downloading and extracting [osTicket-Installation-Files.zip](https://github.com/DesmondJThompson/osticket-prereqs/releases/download/setup-files-v1/osTicket-Installation-Files.zip) to your Desktop.
+
 
 
 <p>
