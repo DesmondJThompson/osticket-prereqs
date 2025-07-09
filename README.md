@@ -50,14 +50,14 @@ Enable:
 
 <img width="422" alt="Screenshot 2025-07-06 at 9 00 45 AM" src="https://github.com/user-attachments/assets/71d27e55-2092-4e0c-9d92-5f435ec6b901" />
  
- Step 3: Install PHP Manager for IIS
-From the "osTicket-Installation-Files" folder, run PHPManagerForIIS.msi
+ Step 4: Install PHP Manager for IIS
+From the "osTicket-Installation-Files" folder run PHPManagerForIIS.msi
 
 - Follow installation prompts
 
 <img width="870" alt="Screenshot 2025-07-06 at 9 43 39 AM" src="https://github.com/user-attachments/assets/348e9584-f934-4968-955c-8436ac8e7a28" />
 
-Step 4: Install Rewrite Module
+Step 5: Install Rewrite Module
 - Run rewrite_amd64_en-US.msi from the "osTicket-Installation-Files" folder
 
 - Follow installation prompts
@@ -65,19 +65,19 @@ Step 4: Install Rewrite Module
 
 <img width="495" alt="Screenshot 2025-07-06 at 9 45 43 AM" src="https://github.com/user-attachments/assets/022de829-14fa-4087-8bc9-b08d395c8640" />
 
-Step 5: Set Up PHP
+Step 6: Set Up PHP
 - Create folder: C:\PHP
 
 - Unzip: php-7.3.8-nts-Win32-VC15-x86.zip → into C:\PHP
 <img width="813" alt="Screenshot 2025-07-06 at 9 46 47 AM" src="https://github.com/user-attachments/assets/cea8e2a3-9589-4fdf-a88e-d6157a64890f" />
 <img width="924" alt="Screenshot 2025-07-06 at 9 47 41 AM" src="https://github.com/user-attachments/assets/11eaf96c-6334-456b-893b-ab846a831912" />
 
-Step 6: Install Visual C++ Redistributable VC_redist.x86.exe from "osTicket-Installation-Files" folder
+Step 7: Install Visual C++ Redistributable VC_redist.x86.exe from "osTicket-Installation-Files" folder
 <img width="480" alt="Screenshot 2025-07-06 at 9 49 03 AM" src="https://github.com/user-attachments/assets/d792e3ca-d151-4a46-b02f-9713bf9c76c3" />
 der
 - Follow the installation prompts
 
-Step 7: Install MySQL 5.5 from "osTicket-Installation-Files" folder
+Step 8: Install MySQL 5.5 from "osTicket-Installation-Files" folder
 Run: mysql-5.5.62-win32.msi
 
 - Choose: Typical Setup
@@ -95,7 +95,7 @@ Run: mysql-5.5.62-win32.msi
 <img width="501" alt="Screenshot 2025-07-06 at 9 51 59 AM" src="https://github.com/user-attachments/assets/64f3d74c-1b63-4684-b404-25a42822cd94" />
 <img width="498" alt="Screenshot 2025-07-06 at 9 53 10 AM" src="https://github.com/user-attachments/assets/255dcb9b-1de2-4fd7-9167-7dba74df7f9b" />
 
-Step 8: Configure IIS with PHP
+Step 9: Configure IIS with PHP
 
 - Open IIS as Administrator
 
@@ -109,7 +109,7 @@ Step 8: Configure IIS with PHP
 <img width="946" alt="Screenshot 2025-07-06 at 10 04 38 AM" src="https://github.com/user-attachments/assets/0388f7d3-6877-47ee-b94f-358ebc107d96" />
 <img width="946" alt="Screenshot 2025-07-06 at 10 04 51 AM" src="https://github.com/user-attachments/assets/01c13dab-bd7a-48e6-82f2-694706260c6d" />
 
-Step 9: Install osTicket
+Step 10: Install osTicket
 
 - Unzip osTicket-v1.15.8.zip
 
@@ -120,7 +120,7 @@ Step 9: Install osTicket
 <img width="846" alt="Screenshot 2025-07-06 at 10 12 58 AM" src="https://github.com/user-attachments/assets/c1c5c8d0-b2f5-4585-bb04-95ca845e5dc1" />
 <img width="848" alt="Screenshot 2025-07-06 at 10 13 24 AM" src="https://github.com/user-attachments/assets/f839687d-68cf-4ac2-8730-1badc9032683" />
 
-Step 10:  Launch osTicket in Browser
+Step 11:  Launch osTicket in Browser
 - In IIS: Go to Sites > Default Web Site > osTicket
 
 - On the right: click *“Browse :80”
@@ -128,7 +128,7 @@ Step 10:  Launch osTicket in Browser
 - You should now see the osTicket installer in your browser.
 <img width="605" alt="Screenshot 2025-07-06 at 10 26 17 AM" src="https://github.com/user-attachments/assets/012258a6-98e7-4790-a27d-3827e2d8f2ef" />
 
-Step 11: Enable PHP Extensions
+Step 12: Enable PHP Extensions
 In IIS:
 
 - Go to Sites > Default > osTicket > PHP Manager
@@ -148,7 +148,7 @@ Refresh the browser to see warnings disappear
 <img width="1024" alt="Screenshot 2025-07-06 at 10 30 37 AM" src="https://github.com/user-attachments/assets/bb00355b-8a48-400c-a1cc-580804fac581" />
 <img width="621" alt="Screenshot 2025-07-06 at 10 33 13 AM" src="https://github.com/user-attachments/assets/3fdd7090-5135-43e5-8a30-7982e6072133" />
 
-Step 12: Configure ost-config.php
+Step 13: Configure ost-config.php
 Rename: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 ➡️ ost-config.php
 
@@ -167,7 +167,7 @@ Set permissions:
 <img width="524" alt="Screenshot 2025-07-06 at 10 41 49 AM" src="https://github.com/user-attachments/assets/fddb2624-9ae2-4d0a-b755-b8d5c0123a2c" />
 <img width="868" alt="Screenshot 2025-07-06 at 10 48 06 AM" src="https://github.com/user-attachments/assets/6561fa9b-c1a7-45df-b800-b8307e473776" />
 
-Step 13: Install HeidiSQL & Create Database
+Step 14: Install HeidiSQL & Create Database
 
 - Install: HeidiSQL.exe from "osTicket-Installation-Files"
 
@@ -184,7 +184,7 @@ Step 13: Install HeidiSQL & Create Database
 <img width="684" alt="Screenshot 2025-07-07 at 7 33 44 PM" src="https://github.com/user-attachments/assets/2be58651-c00f-410a-ba9b-d0a7be217e2f" />
 <img width="933" alt="Screenshot 2025-07-07 at 7 35 35 PM" src="https://github.com/user-attachments/assets/ddc22c8d-7c48-44d8-830b-31e0b3581ea4" />
 
-Step 14: Finish osTicket Web Setup
+Step 15: Finish osTicket Web Setup
 
 Back in the browser:
 
